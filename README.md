@@ -1,15 +1,13 @@
-# csv-header-parser
+# CSV Parser for Headers
+
 Python tool for parsing CSV files to detect and validate headers and data row based on required and optional columns. Handles if headers were merged spanned different rows before data starts.
 
-# CSV Parser for House Listings
-
-A Python tool to parse and validate CSV files for house listings, ensuring key features like address, price, and number of rooms are correctly identified.
-
 ## Features
-- Detects and validates headers for house attributes such as address, price, and amenities.
-- Supports both required and optional fields, allowing for flexible data processing.
+- Detects and validates headers 
+- Finds data row start
+- Supports both required and optional fields
 
-## Headers Configuration
+## Example Headers Configuration
 ```python
 headers = {
     'required': {
